@@ -1,8 +1,35 @@
-[English](README.md)
+<div align="center">
 
-# Idea Darwin — 给你的想法一座进化岛
+# Idea Darwin
 
-> 你不缺 idea，你缺的是让它们自己长出来的地方。
+**给你的想法一座进化岛**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet.svg)](https://claude.ai)
+[![Bilingual](https://img.shields.io/badge/Lang-EN_|_ZH_|_JA-blue.svg)](#语言版本)
+
+> 你不缺 idea，你缺的是让它们自己进化的空间。
+> 深化、交叉、变异 —— 进化论的答案总是出人意料，又无比合理。
+
+[English](README.md) | [日本語](README_JA.md)
+
+</div>
+
+---
+
+## 目录
+
+- [岛上发生什么](#岛上发生什么)
+- [物种卡片](#物种卡片每个想法都有自己的档案)
+- [你是这座岛的上帝](#你是这座岛的上帝)
+- [评分体系](#评分体系)
+- [快速开始](#快速开始)
+- [全部命令](#全部命令)
+- [适合谁用](#适合谁用)
+- [安装](#安装)
+- [语言版本](#语言版本)
+
+---
 
 你同时在做好几个项目，读了一本好书，和朋友聊了一个有意思的话题，通勤路上突然冒出一个念头 —— 这些想法散落在生活的各个角落，不是坐下来"头脑风暴"才会产生的。它们随时随地出现，然后随时随地被遗忘。
 
@@ -13,6 +40,24 @@
 ## 岛上发生什么？
 
 你的想法在这座岛上是活的。它们像生物体一样，遵循进化论的三个核心法则：
+
+```mermaid
+graph LR
+    A["🌱 原始想法"] --> B["🔬 进化"]
+    B --> C["🧬 交叉"]
+    C --> D["☢️ 变异"]
+    D --> E["✅ 验证"]
+    E -->|存活| F["📋 物种卡片"]
+    E -->|待改进| B
+
+    G["🌍 环境变量"] -.->|stimuli.md| D
+    H["💡 新想法"] -.->|ideas.md| A
+
+    style A fill:#e1f5fe,stroke:#0288d1
+    style F fill:#e8f5e9,stroke:#388e3c
+    style G fill:#fff8e1,stroke:#f9a825
+    style H fill:#fff8e1,stroke:#f9a825
+```
 
 ### 进化
 
@@ -34,6 +79,91 @@
 
 **而这些卡片，就是 Idea Darwin 的最终产出。**
 
+### 想法生命周期
+
+```mermaid
+stateDiagram-v2
+    [*] --> 种子 : 丢上岛
+    种子 --> 探索中 : 初始评分
+    探索中 --> 深化中 : 深度研究
+    探索中 --> 交叉中 : 高交叉潜力
+    深化中 --> 交叉中 : 准备融合
+    交叉中 --> 已验证 : 通过验证
+    已验证 --> [*] : 收割 🎯
+    种子 --> 休眠 : 用户决定
+    探索中 --> 休眠 : 用户决定
+    深化中 --> 休眠 : 用户决定
+    休眠 --> 探索中 : 唤醒
+```
+
+### 物种卡片示例
+
+| 字段 | 值 |
+|---|---|
+| **ID** | IDEA-0001 |
+| **标题** | 用进化论的角度做 idea 优化 |
+| **阶段** | `validated` |
+| **新颖性** | 9 |
+| **可行性** | 9 |
+| **价值** | 10 |
+| **逻辑性** | 9 |
+| **交叉潜力** | 10 |
+| **可验证性** | 8 |
+| **Survival** | 9.10 |
+| **Development** | 9.20 |
+| **Priority** | 9.35 |
+
+<details>
+<summary>查看完整物种卡片</summary>
+
+```yaml
+---
+id: IDEA-0001
+title: "用进化论的角度做 idea 优化"
+status: active
+stage: validated
+round_created: 0
+parent_ids: []
+child_ids: [IDEA-0004, IDEA-0006, IDEA-0009]
+tags: [meta, 进化论, 想法管理, 创造力]
+last_action: "validate"
+last_round: 5
+scores:
+  novelty: 9
+  feasibility: 9
+  value: 10
+  logic: 9
+  cross_potential: 10
+  verifiability: 8
+  survival: 9.10
+  development: 9.20
+  priority: 9.35
+---
+```
+
+**核心问题：** 达尔文的自然选择 —— 竞争、交叉、变异 —— 能否直接应用于人类的原始想法，让它们进化出任何单次头脑风暴都无法产出的方案？
+
+**完整描述：** 大多数想法管理工具都是文件柜：存想法、打标签、然后让它们烂在那里。这个方向彻底翻转了范式 —— 不是整理想法，而是让想法*竞争*。每个 idea 都是岛上的活物种。每一轮，最有生命力的被深化，不同的 idea 之间交叉授粉产生意想不到的杂交后代，外部刺激引发变异。魔力就在于你*没有计划*的部分 —— 进化能让线性思维永远到不了的方向浮现出来。一个技术架构想法和一个行为心理学洞察交叉，突然你就有了一个任何单一领域都不可能独立产出的产品概念。
+
+**当前张力：** 随机性多少才合适？纯粹的自然选择可能太慢，系统需要足够的定向压力才能在人类时间尺度内有用，同时保留足够的混沌来制造真正的惊喜。
+
+**进一步深化方向：**
+- 校准扰动频率：太频繁 = 噪音，太稀少 = 局部最优
+- 探索用户能否定义"适应度景观" —— 不同项目场景使用不同的评估标准
+
+**交叉候选：**
+- IDEA-0003（间隔重复学习系统） —— 进化后的 idea 卡片能否接入间隔重复循环，让最好的洞察始终保持在大脑前台？
+- IDEA-0005（团队异步头脑风暴协议） —— 多人进化岛，团队成员各自贡献种子和刺激？
+
+**变更日志：**
+- 第 0 轮：原始种子 —— "用进化论管理想法"
+- 第 1 轮：深化 —— 形式化了三大机制（进化、交叉、变异）
+- 第 2 轮：与 IDEA-0002（评分系统）交叉 → 产出 6 维评估框架
+- 第 3 轮：扰动轮 —— 外部刺激"达尔文雀的适应辐射"触发了物种卡片概念
+- 第 5 轮：验证通过 —— 两层检查均通过，确认为可行的产品方向
+
+</details>
+
 ## 你是这座岛的上帝
 
 系统负责运转进化机制，但你始终是这座岛的主宰。你可以：
@@ -44,11 +174,59 @@
 
 系统只推荐，不擅自淘汰任何想法。每一个生死决定，都由你来做。
 
-## 怎么用？
+## 评分体系
+
+每个 idea 从 **6 个维度**（1–10 分）评估，汇总为三层战略优先级：
+
+### 6 个评分维度
+
+| 维度 | 权重 | 衡量什么 |
+|---|---|---|
+| **新颖性 Novelty** | 10% | 是否有真正的突破，还是在重复？ |
+| **可行性 Feasibility** | 20% | 技术上和资源上是否可实现？ |
+| **价值 Value** | 20% | 如果成功，能创造多大影响？ |
+| **逻辑性 Logic** | 20% | 内在是否自洽，有没有明显漏洞？ |
+| **交叉潜力 Cross Potential** | 10% | 与其他 idea 结合时能否碰撞出新东西？ |
+| **可验证性 Verifiability** | 20% | 能否设计一个实验或最小验证路径？ |
+
+### 三层优先级
+
+| 层级 | 衡量什么 |
+|---|---|
+| **Survival** | 这个 idea 本身的质量 —— 能不能独立活下来？ |
+| **Development** | 它的成长空间 —— 还能进化多远？ |
+| **Priority** | 综合评估 —— 加入新鲜度和多样性修正，防止物种趋同 |
+
+<details>
+<summary>评分公式</summary>
+
+```
+Survival    = 0.10×Novelty + 0.20×Feasibility + 0.20×Value
+              + 0.20×Logic + 0.10×CrossPotential + 0.20×Verifiability
+
+Development = 0.30×Novelty + 0.30×CrossPotential
+              + 0.20×VariationPotential + 0.20×Freshness
+
+Priority    = 0.50×Survival + 0.30×Development
+              + 0.10×NewIdeaBoost + 0.10×DiversityBonus
+```
+
+</details>
+
+## 快速开始
 
 ### 1. 把想法丢上岛
 
-创建一个 `ideas.md` 文件，每个 idea 用 `##` 分隔。写多粗糙都行 —— 一句话也好，一整段也好，系统会帮你结构化。
+创建一个 `ideas.md` 文件，写多粗糙都行：
+
+```markdown
+## 能学习我写作风格的个人知识库
+我想要一个系统，读我写过的所有东西，逐渐学会我的思考方式，
+然后用我自己的语感帮我起草内容。
+
+## 通勤录音转播客
+通勤路上录语音备忘，自动转成结构化的播客脚本。
+```
 
 ### 2. 初始化你的岛
 
@@ -81,7 +259,8 @@
 /idea-darwin wake IDEA-0005          # 唤醒它
 ```
 
-### init 可选参数
+<details>
+<summary>init 可选参数</summary>
 
 | 参数 | 说明 | 默认值 |
 |---|---|---|
@@ -89,15 +268,7 @@
 | `--actions <N>` | 每个物种每轮最多执行的动作数 | `2` |
 | `--disruption <N>` | 每 N 轮引入一次环境变异 | `3` |
 
-## 评分体系
-
-每个 idea 从 6 个维度评分（1-10 分），汇总为三层优先级：
-
-| 层级 | 衡量什么 |
-|---|---|
-| **Survival** | 这个 idea 本身的质量 —— 能不能活下来？ |
-| **Development** | 它的成长空间 —— 还能进化多远？ |
-| **Priority** | 综合评估 —— 加入新鲜度和多样性修正，防止岛上的物种趋同 |
+</details>
 
 ## 适合谁用？
 
@@ -109,11 +280,13 @@
 
 ## 安装
 
+> **前置条件：** 需要先安装 [Claude Code](https://claude.ai)、[OpenClaw](https://github.com/nicepkg/openclaw) 或 [Codex](https://github.com/openai/codex)。
+
 ```bash
-# 中文版（全局）
+# 中文版（全局 —— 在所有项目中可用）
 cp -r zh/ ~/.claude/skills/idea-darwin/
 
-# 中文版（项目级别）
+# 中文版（项目级别 —— 仅当前项目）
 cp -r zh/ .claude/skills/idea-darwin/
 ```
 
@@ -123,8 +296,10 @@ cp -r zh/ .claude/skills/idea-darwin/
 |---|---|---|
 | 中文版 | `zh/` | 所有提示词和模板均为中文 |
 | English | `en/` | All prompts and templates in English |
+| 日本語 | `ja/` | すべてのプロンプトとテンプレートが日本語 |
 
-## 运行后的文件结构
+<details>
+<summary>运行后的文件结构</summary>
 
 ```
 project/
@@ -137,6 +312,14 @@ project/
 └── graph/            # 物种关系图谱
 ```
 
-## License
+</details>
 
-MIT
+---
+
+<div align="center">
+
+MIT License
+
+Made for [Claude Code](https://claude.ai)
+
+</div>
