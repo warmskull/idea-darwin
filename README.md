@@ -1,138 +1,140 @@
-# Idea Darwin — 给你的想法一座进化岛
+[中文版](README_ZH.md)
 
-> 你不缺 idea，你缺的是让它们自己长出来的地方。
+# Idea Darwin — An Evolution Island for Your Ideas
 
-你同时在做好几个项目，读了一本好书，和朋友聊了一个有意思的话题，通勤路上突然冒出一个念头 —— 这些想法散落在生活的各个角落，不是坐下来"头脑风暴"才会产生的。它们随时随地出现，然后随时随地被遗忘。
+> You don't lack ideas. You lack a place where they can grow on their own.
 
-**Idea Darwin 给你一座岛。** 一座属于你的进化岛。
+You're juggling multiple projects, you just read a great book, you had a fascinating conversation with a friend, a thought pops into your head on the commute home — ideas are scattered across every corner of your life. They don't only show up during scheduled brainstorming sessions. They appear anytime, anywhere — and vanish just as quickly.
 
-任何时候冒出一个想法，不管多粗糙、多零碎，直接丢上岛。没有任何负担，不用写清楚，不用判断好坏。剩下的事情，岛上自会发生。
+**Idea Darwin gives you an island.** Your own evolution island.
 
-## 岛上发生什么？
+Whenever a thought strikes, no matter how rough or fragmented, just toss it onto the island. Zero friction, no need to articulate it perfectly, no need to judge whether it's good. What happens next is the island's job.
 
-你的想法在这座岛上是活的。它们像生物体一样，遵循进化论的三个核心法则：
+## What Happens on the Island?
 
-### 进化
+Your ideas are alive on this island. Like organisms, they follow three core laws of evolution:
 
-每一轮，系统会挑出最有生命力的 idea，对它们进行结构化的深度研究 —— 补齐逻辑、明确路径、识别风险。模糊的想法会变清晰，粗糙的会变完整。适者生存，每个 idea 都在变强。
+### Evolution
 
-### 交叉
+Each round, the system identifies the most viable ideas and puts them through structured deep research — filling logical gaps, clarifying paths, identifying risks. Vague ideas become clear. Rough ideas become complete. Survival of the fittest — every idea gets stronger or gets left behind.
 
-就像生物体的繁衍。系统会在你的不同 idea 之间进行交叉融合 —— 一个来自工作的技术方案，遇上一个来自生活的观察，可能碰撞出你从未想过的新方向。这种跨领域的杂交，往往产生最有价值的突变。
+### Crossbreeding
 
-### 变异
+Like biological reproduction. The system cross-pollinates your different ideas — a technical approach from work meets an observation from daily life, and they might produce a direction you never imagined. These cross-domain hybrids often yield the most valuable breakthroughs.
 
-除了你自己的 idea，你还可以向岛上投放"环境变量" —— 一条行业新闻、一个刚学到的理论、一段让你有感触的对话。这些外部刺激会像辐射一样引发 idea 的变异，产生全新的物种，继续在岛上参与竞争。
+### Mutation
 
-## 物种卡片：每个想法都有自己的档案
+Beyond your own ideas, you can introduce "environmental variables" to the island — an industry headline, a theory you just learned, a conversation that struck a chord. These external stimuli trigger mutations in your ideas, spawning entirely new species that continue competing on the island.
 
-这座岛上的每一个 idea —— 不管是你最初丢上来的原始想法，还是交叉产生的后代，深化后的进化体，或是变异催生的新物种 —— 都会拥有一张独立的 **物种卡片**。
+## Species Cards: Every Idea Gets Its Own File
 
-每张卡片记录着这个 idea 的核心问题、完整描述、血统关系、6 维评分和变化轨迹。从少量的原始种子和几个环境变量开始，你最终会收获一座丰富的物种岛。
+Every idea on this island — whether it's an original seed you tossed in, an offspring from crossbreeding, an evolved form after deepening, or a new species born from mutation — gets its own **species card**.
 
-**而这些卡片，就是 Idea Darwin 的最终产出。**
+Each card records the idea's core question, full description, lineage, 6-dimensional scores, and change history. Starting from a handful of raw seeds and a few environmental variables, you'll end up with a rich, diverse island of species.
 
-## 你是这座岛的上帝
+**These cards are what Idea Darwin ultimately produces.**
 
-系统负责运转进化机制，但你始终是这座岛的主宰。你可以：
+## You Are the God of This Island
 
-- **打分和判断** —— 评估哪些 idea 值得继续进化，哪些该休眠
-- **干预** —— 在任何时刻改变进化方向，唤醒沉睡的物种，引入新的刺激
-- **收割** —— 把成熟的 idea 卡片带出岛屿，投入到你的项目、产品或生活中
+The system runs the evolutionary machinery, but you are always the sovereign. You can:
 
-系统只推荐，不擅自淘汰任何想法。每一个生死决定，都由你来做。
+- **Score and judge** — decide which ideas deserve to keep evolving, which should hibernate
+- **Intervene** — change the course of evolution at any moment, wake dormant species, introduce new stimuli
+- **Harvest** — take mature idea cards off the island and put them to work in your projects, products, or life
 
-## 怎么用？
+The system only recommends. It never kills an idea without your say. Every life-or-death decision is yours.
 
-### 1. 把想法丢上岛
+## How to Use It
 
-创建一个 `ideas.md` 文件，每个 idea 用 `##` 分隔。写多粗糙都行 —— 一句话也好，一整段也好，系统会帮你结构化。
+### 1. Toss Your Ideas onto the Island
 
-### 2. 初始化你的岛
+Create an `ideas.md` file, separate each idea with `##`. Write as rough as you want — a single sentence or a full paragraph, the system will structure it for you.
+
+### 2. Initialize Your Island
 
 ```
 /idea-darwin init
 ```
 
-系统为每个想法生成物种卡片，包含 6 维评分和三层优先级分数。
+The system generates a species card for each idea, with 6-dimensional scores and a three-layer priority ranking.
 
-### 3. 开始进化
+### 3. Start Evolving
 
 ```
 /idea-darwin round
 ```
 
-每一轮，系统自动执行进化、交叉、变异、批判和验证。轮次结束后，你会收到一份简报：谁升了、谁降了、谁是新物种、谁需要你拍板。
+Each round, the system automatically runs evolution, crossbreeding, mutation, critique, and validation. After the round, you get a briefing: who rose, who fell, who's a new species, and what needs your decision.
 
-### 4. 随时加入新想法和环境变量
+### 4. Add New Ideas and Environmental Variables Anytime
 
-往 `ideas.md` 里追加新 idea，往 `stimuli.md` 里追加环境变量。下一轮自动纳入进化。
+Append new ideas to `ideas.md`, add environmental variables to `stimuli.md`. They'll be absorbed into the next round automatically.
 
-## 全部命令
+## All Commands
 
 ```
-/idea-darwin init                    # 建岛
-/idea-darwin round                   # 跑一轮进化
-/idea-darwin round 3                 # 连续跑 3 轮
-/idea-darwin status                  # 看物种排名
-/idea-darwin dormant IDEA-0005       # 让某个物种休眠
-/idea-darwin wake IDEA-0005          # 唤醒它
+/idea-darwin init                    # Build the island
+/idea-darwin round                   # Run one evolution round
+/idea-darwin round 3                 # Run 3 consecutive rounds
+/idea-darwin status                  # View species rankings
+/idea-darwin dormant IDEA-0005       # Put a species into hibernation
+/idea-darwin wake IDEA-0005          # Wake it up
 ```
 
-### init 可选参数
+### init Optional Parameters
 
-| 参数 | 说明 | 默认值 |
+| Parameter | Description | Default |
 |---|---|---|
-| `--budget <N>` | 每轮最多处理的物种数 | `12` |
-| `--actions <N>` | 每个物种每轮最多执行的动作数 | `2` |
-| `--disruption <N>` | 每 N 轮引入一次环境变异 | `3` |
+| `--budget <N>` | Max species to process per round | `12` |
+| `--actions <N>` | Max actions per species per round | `2` |
+| `--disruption <N>` | Introduce environmental mutation every N rounds | `3` |
 
-## 评分体系
+## Scoring System
 
-每个 idea 从 6 个维度评分（1-10 分），汇总为三层优先级：
+Each idea is scored across 6 dimensions (1-10), aggregated into three priority layers:
 
-| 层级 | 衡量什么 |
+| Layer | What It Measures |
 |---|---|
-| **Survival** | 这个 idea 本身的质量 —— 能不能活下来？ |
-| **Development** | 它的成长空间 —— 还能进化多远？ |
-| **Priority** | 综合评估 —— 加入新鲜度和多样性修正，防止岛上的物种趋同 |
+| **Survival** | The idea's standalone quality — can it survive? |
+| **Development** | Its growth potential — how far can it still evolve? |
+| **Priority** | Combined assessment — with freshness and diversity corrections to prevent species convergence |
 
-## 适合谁用？
+## Who Is This For?
 
-- **同时推进多个项目的人** —— 让不同项目的思考互相碰撞
-- **想法很多但总是搁浅的人** —— 给想法一个不会被遗忘的去处
-- **独立创作者和创业者** —— 一个人也能做系统化的方向筛选
-- **研究者** —— 在论文选题和研究方向中做结构化探索
-- **任何觉得"我脑子里东西很多但理不清"的人**
+- **People juggling multiple projects** — let thinking from different domains collide
+- **People with lots of ideas that always stall** — give your ideas a place where they won't be forgotten
+- **Solo creators and founders** — systematic direction-finding, even as a team of one
+- **Researchers** — structured exploration of thesis topics and research directions
+- **Anyone who thinks "I have so much in my head but can't sort it out"**
 
-## 安装
+## Installation
 
 ```bash
-# 中文版（全局）
-cp -r zh/ ~/.claude/skills/idea-darwin/
+# English version (global)
+cp -r en/ ~/.claude/skills/idea-darwin/
 
-# 中文版（项目级别）
-cp -r zh/ .claude/skills/idea-darwin/
+# English version (project-level)
+cp -r en/ .claude/skills/idea-darwin/
 ```
 
-## 语言版本
+## Language Versions
 
-| 版本 | 路径 | 说明 |
+| Version | Path | Description |
 |---|---|---|
-| 中文版 | `zh/` | 所有提示词和模板均为中文 |
 | English | `en/` | All prompts and templates in English |
+| 中文版 | `zh/` | All prompts and templates in Chinese |
 
-## 运行后的文件结构
+## File Structure After Init
 
 ```
 project/
-├── ideas.md          # 你的原始想法（只读，系统不会碰它）
-├── config.yaml       # 岛的配置与状态
-├── stimuli.md        # 环境变量（你来维护）
-├── cards/            # 物种卡片
-├── rounds/           # 每轮进化报告
-├── reports/          # 物种排行榜
-└── graph/            # 物种关系图谱
+├── ideas.md          # Your raw ideas (read-only, the system never touches it)
+├── config.yaml       # Island configuration and state
+├── stimuli.md        # Environmental variables (maintained by you)
+├── cards/            # Species cards
+├── rounds/           # Evolution round reports
+├── reports/          # Species leaderboard
+└── graph/            # Species relationship graph
 ```
 
 ## License
