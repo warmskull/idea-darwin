@@ -1,7 +1,10 @@
 ---
-name: idea-darwin
+name: idea-darwin-zh
+version: 1.0.0
+emoji: 🧬
+homepage: https://github.com/warmskull/idea-darwin
 description: |
-  Idea Darwin 引擎 — 自动化 idea 迭代系统，通过结构化竞争与选择进化原始想法。从 ideas.md 导入想法，将其结构化为带评分的卡片，然后运行迭代轮次：深化、派生、交叉、批判、验证，最终让高潜力 idea 浮现。使用 /idea-darwin 触发。当用户提到"跑一轮"、"迭代 idea"、"idea 池"、"idea 打分"、"idea 状态"、"头脑风暴迭代"、"进化我的想法"、"给 idea 排名"、"idea 流水线"时也应触发本 skill。即使用户没有显式说 /idea-darwin，只要任务涉及从文件中结构化想法、给 idea 打分排序、或运行任何形式的系统化 idea 迭代与筛选流程，都应使用本 skill。
+  Idea Darwin 引擎（中文版）— 自动化 idea 迭代系统，通过结构化竞争与选择进化原始想法。从 ideas.md 导入想法，将其结构化为带评分的卡片，然后运行迭代轮次：深化、派生、交叉、批判、验证，最终让高潜力 idea 浮现。使用 /idea-darwin 触发。当用户提到"跑一轮"、"迭代 idea"、"idea 池"、"idea 打分"、"idea 状态"、"头脑风暴迭代"、"进化我的想法"、"给 idea 排名"、"idea 流水线"时也应触发本 skill。即使用户没有显式说 /idea-darwin，只要任务涉及从文件中结构化想法、给 idea 打分排序、或运行任何形式的系统化 idea 迭代与筛选流程，都应使用本 skill。
 ---
 
 # Idea Darwin 引擎

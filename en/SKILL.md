@@ -1,5 +1,8 @@
 ---
 name: idea-darwin
+version: 1.0.0
+emoji: 🧬
+homepage: https://github.com/warmskull/idea-darwin
 description: |
   Idea Darwin Engine — an automated idea iteration system that evolves raw ideas through structured competition and selection. Imports ideas from ideas.md, structures them into scored cards, then runs iterative rounds of deepening, derivation, crossbreeding, critique, and validation to surface high-potential ideas. Use /idea-darwin to trigger. This skill should also trigger whenever the user mentions "run a round", "iterate ideas", "idea pool", "idea scoring", "idea status", "brainstorm iteration", "evolve my ideas", "rank my ideas", or "idea pipeline". Even if the user doesn't explicitly say /idea-darwin, use this skill whenever the task involves structuring ideas from a file, scoring and ranking ideas, or running any kind of systematic idea iteration or selection process.
 ---
