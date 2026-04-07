@@ -6,12 +6,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet.svg)](https://claude.ai)
-[![Bilingual](https://img.shields.io/badge/Lang-EN_|_ZH-blue.svg)](#语言版本)
+[![Bilingual](https://img.shields.io/badge/Lang-EN_|_ZH_|_JA-blue.svg)](#语言版本)
 
 > 你不缺 idea，你缺的是让它们自己进化的空间。
 > 深化、交叉、变异 —— 进化论的答案总是出人意料，又无比合理。
 
-[English](README.md)
+[English](README.md) | [日本語](README_JA.md)
 
 </div>
 
@@ -296,6 +296,7 @@ cp -r zh/ .claude/skills/idea-darwin/
 |---|---|---|
 | 中文版 | `zh/` | 所有提示词和模板均为中文 |
 | English | `en/` | All prompts and templates in English |
+| 日本語 | `ja/` | すべてのプロンプトとテンプレートが日本語 |
 
 <details>
 <summary>运行后的文件结构</summary>

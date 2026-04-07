@@ -6,12 +6,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet.svg)](https://claude.ai)
-[![Bilingual](https://img.shields.io/badge/Lang-EN_|_ZH-blue.svg)](#language-versions)
+[![Bilingual](https://img.shields.io/badge/Lang-EN_|_ZH_|_JA-blue.svg)](#language-versions)
 
 > You don't lack ideas. You lack a space where they evolve on their own.
 > Deepening, crossbreeding, mutation — evolution's answers are always surprising, yet perfectly logical.
 
-[中文版](README_ZH.md)
+[中文版](README_ZH.md) | [日本語](README_JA.md)
 
 </div>
 
@@ -296,6 +296,7 @@ cp -r en/ .claude/skills/idea-darwin/
 |---|---|---|
 | English | `en/` | All prompts and templates in English |
 | 中文版 | `zh/` | All prompts and templates in Chinese |
+| 日本語 | `ja/` | All prompts and templates in Japanese |
 
 <details>
 <summary>File structure after initialization</summary>
